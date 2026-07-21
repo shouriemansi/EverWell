@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="css/page8.css">
+</head>
+<body>
+<div class="wrapper">
+ <a href="page3(main).html" target="_self" class="main-link">❮</a>
+
+  <!-- ===== TODAY I FELT ===== -->
+  <section class="felt-card">
+    <div class="felt-top">
+      <div class="meta">
+        <div>NAME ______________________</div>
+        <div>WEEK ______________________</div>
+      </div>
+      <h1>Today I Felt</h1>
+    </div>
+
+    <div class="felt-table">
+
+      <!-- Header -->
+      <div class="row header">
+        <div class="col emoji"></div>
+        <div class="col days">
+          <span>MON</span><span>TUE</span><span>WED</span>
+          <span>THU</span><span>FRI</span><span>SAT</span><span>SUN</span>
+        </div>
+      </div>
+
+      <!-- Rows -->
+      <div class="row">
+        <div class="emoji">🙂</div>
+        <div class="days">
+          <input type="checkbox" id="r1c1"><label for="r1c1"></label>
+          <input type="checkbox" id="r1c2"><label for="r1c2"></label>
+          <input type="checkbox" id="r1c3"><label for="r1c3"></label>
+          <input type="checkbox" id="r1c4"><label for="r1c4"></label>
+          <input type="checkbox" id="r1c5"><label for="r1c5"></label>
+          <input type="checkbox" id="r1c6"><label for="r1c6"></label>
+          <input type="checkbox" id="r1c7"><label for="r1c7"></label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="emoji">😭</div>
+        <div class="days">
+          <input type="checkbox" id="r2c1"><label for="r2c1"></label>
+          <input type="checkbox" id="r2c2"><label for="r2c2"></label>
+          <input type="checkbox" id="r2c3"><label for="r2c3"></label>
+          <input type="checkbox" id="r2c4"><label for="r2c4"></label>
+          <input type="checkbox" id="r2c5"><label for="r2c5"></label>
+          <input type="checkbox" id="r2c6"><label for="r2c6"></label>
+          <input type="checkbox" id="r2c7"><label for="r2c7"></label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="emoji">😡</div>
+        <div class="days">
+          <input type="checkbox" id="r3c1"><label for="r3c1"></label>
+          <input type="checkbox" id="r3c2"><label for="r3c2"></label>
+          <input type="checkbox" id="r3c3"><label for="r3c3"></label>
+          <input type="checkbox" id="r3c4"><label for="r3c4"></label>
+          <input type="checkbox" id="r3c5"><label for="r3c5"></label>
+          <input type="checkbox" id="r3c6"><label for="r3c6"></label>
+          <input type="checkbox" id="r3c7"><label for="r3c7"></label>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== MOOD DETAILS ===== -->
+  <section class="detail-card">
+
+    <div class="left">
+      <h3>HOW WAS YOUR MOOD?</h3>
+      <div class="faces">
+        <input type="radio" name="mood" id="m1"><label for="m1">😁</label>
+        <input type="radio" name="mood" id="m2"><label for="m2">🙂</label>
+        <input type="radio" name="mood" id="m3"><label for="m3">😐</label>
+        <input type="radio" name="mood" id="m4"><label for="m4">🙁</label>
+        <input type="radio" name="mood" id="m5"><label for="m5">😖</label>
+      </div>
+
+      <h3>WHAT WAS YOUR ENERGY LEVEL?</h3>
+      <input type="range" min="0" max="100">
+
+      <h3>HOW OVERWHELMED WERE YOU?</h3>
+      <input type="range" min="0" max="100">
+    </div>
+
+    <div class="right">
+      <h3>HOW DID YOU FEEL?</h3>
+      <div class="tags">
+        <input type="checkbox" id="t1"><label for="t1">excited</label>
+        <input type="checkbox" id="t2"><label for="t2">grateful</label>
+        <input type="checkbox" id="t3"><label for="t3">productive</label>
+        <input type="checkbox" id="t4"><label for="t4">calm</label>
+        <input type="checkbox" id="t5"><label for="t5">sad</label>
+        <input type="checkbox" id="t6"><label for="t6">anxious</label>
+        <input type="checkbox" id="t7"><label for="t7">angry</label>
+        <input type="checkbox" id="t8"><label for="t8">frustrated</label>
+      </div>
+    </div>
+
+  </section>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,130 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #fff7f9;
+    color: #333;
+}
+
+/* TOP BANNER */
+.top-banner {
+    background: linear-gradient(to right, #f8c8dc, #f3b1cc);
+    padding: 35px;
+    text-align: center;
+}
+
+.top-banner h1 {
+    font-family: cursive;
+    color: #a14a6d;
+}
+
+/* MAIN */
+.container {
+    padding: 40px 60px;
+}
+
+/* HEARTS */
+.hearts {
+    color: #f3a6c1;
+    margin-bottom: 10px;
+}
+
+/* TITLE */
+h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.main-link{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+}
+
+/* ADD TASK */
+.add-task {
+    background: #fde4ec;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+
+.add-task input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 15px;
+}
+
+/* WEEK */
+.week {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* IMAGES */
+.side-image img {
+    width: 220px;
+    border-radius: 10px;
+}
+
+/* DAYS */
+.days {
+    display: flex;
+    gap: 25px;
+}
+
+/* DAY BOX */
+.day {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 170px;
+}
+
+.day h3 {
+    background: #fde4ec;
+    padding: 6px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* TASK */
+label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 8px;
+}
+
+label input[type="checkbox"] {
+    cursor: pointer;
+}
+
+label input[type="text"] {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+
+/* BOTTOM */
+.bottom-week {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}

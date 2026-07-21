@@ -1,0 +1,264 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:linear-gradient(to bottom, #fff0f6, #fde6ee);
+    color:#444;
+}
+.main-link{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+}
+
+
+/* NAVBAR */
+.navbar{
+    background:#ffe2ec;
+    padding:18px 50px;
+    display:flex;
+    align-items:center;
+    box-shadow:0 6px 18px rgba(0,0,0,0.08);
+}
+
+.navbar h1{
+    font-size:28px;
+    color:#c94c7a;
+}
+
+/* MAIN CONTAINER */
+.container{
+    width:85%;
+    margin:50px auto;
+}
+
+/* SECTION TITLES */
+.section-title{
+    font-size:22px;
+    color:#c94c7a;
+    margin-bottom:20px;
+}
+
+/* REMINDER ROW */
+.reminder{
+    background:#fff;
+    border-radius:20px;
+    padding:16px 20px;
+    margin-bottom:18px;
+    display:flex;
+    align-items:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.06);
+    animation: slideIn 0.8s ease forwards;
+    transition:0.3s;
+}
+
+.reminder:hover{
+    transform:translateY(-4px);
+}
+
+/* CHECKBOX */
+.reminder input[type="checkbox"]{
+    width:18px;
+    height:18px;
+    margin-right:16px;
+    accent-color:#f3a7bf;
+    cursor:pointer;
+}
+
+/* TEXT INPUT */
+.reminder input[type="text"]{
+    flex:1;
+    border:none;
+    outline:none;
+    font-size:14px;
+    padding:10px 14px;
+    border-radius:14px;
+    background:#fff6f9;
+    margin-right:14px;
+}
+
+/* PRIORITY DROPDOWN */
+.reminder select{
+    border:none;
+    outline:none;
+    padding:10px 14px;
+    border-radius:14px;
+    background:#fde1eb;
+    color:#b64b73;
+    font-size:13px;
+    cursor:pointer;
+}
+
+/* COMPLETED SECTION */
+.completed{
+    margin-top:60px;
+}
+
+.completed .reminder{
+    background:#fff7fa;
+    opacity:0.8;
+}
+
+.completed input[type="text"]{
+    text-decoration:line-through;
+    color:#999;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body{
+    background:linear-gradient(to bottom, #fff0f6, #fde6ee);
+    color:#444;
+}
+
+
+/* HEADER */
+.header{
+    padding:30px;
+    text-align:center;
+    animation: fadeDown 0.8s ease;
+}
+
+.header h1{
+    font-size:34px;
+    color:#c94c7a;
+}
+
+/* MONTH BAR */
+.month-bar{
+    width:85%;
+    margin:0 auto 20px;
+    background:#ffe2ec;
+    padding:16px 22px;
+    border-radius:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    box-shadow:0 8px 20px rgba(0,0,0,0.08);
+}
+
+.month-bar span{
+    font-size:22px;
+    color:#c94c7a;
+    cursor:pointer;
+}
+
+.month-bar h2{
+    font-size:20px;
+    color:#b64b73;
+}
+
+/* WEEKDAYS */
+.weekdays{
+    width:85%;
+    margin:0 auto 10px;
+    display:flex;
+    justify-content:space-between;
+}
+
+.weekdays div{
+    width:13.5%;
+    text-align:center;
+    font-size:13px;
+    color:#999;
+}
+
+/* CALENDAR */
+.calendar{
+    width:85%;
+    margin:0 auto 80px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+/* DAY CARD */
+.day{
+    width:13.5%;
+    background:#fff;
+    border-radius:18px;
+    padding:10px;
+    margin-bottom:14px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.06);
+    min-height:150px;
+    display:flex;
+    flex-direction:column;
+    animation: fadeUp 0.8s ease;
+    transition:0.3s;
+}
+
+.day:hover{
+    transform:translateY(-4px);
+}
+
+/* TODAY */
+.today{
+    background:#fff6f9;
+    border:2px solid #f3a7bf;
+}
+
+/* DATE HEADER */
+.date-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:6px;
+}
+
+.date{
+    font-size:14px;
+    font-weight:500;
+    color:#c94c7a;
+}
+
+.icon{
+    font-size:14px;
+}
+
+/* WRITABLE AREA */
+.day textarea{
+    flex:1;
+    border:none;
+    outline:none;
+    resize:none;
+    font-size:11px;
+    padding:6px;
+    border-radius:10px;
+    background:#fde1eb;
+    color:#7a3b55;
+}
+
+.day textarea::placeholder{
+    color:#b77a92;
+}
+
+/* ANIMATIONS */
+@keyframes fadeDown{
+    from{opacity:0; transform:translateY(-20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+@keyframes fadeUp{
+    from{opacity:0; transform:translateY(20px);}
+    to{opacity:1; transform:translateY(0);}
+}
+

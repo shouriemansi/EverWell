@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Page</title>
+    <link rel="stylesheet" href="css/page4.css">
+</head>
+<body>
+<!-- NAVBAR -->
+<div class="navbar">
+    <a href="page3(main).html" target="_self" class="main-link">❮</a>
+    <h1>Journalling</h1>
+</div>
+
+<!-- JOURNAL OPTIONS -->
+<div class="journal-options">
+
+    <a href="#daily" class="journal-card">
+        <img src="images/writeup.png">
+        <h3>Daily Entry</h3>
+    </a>
+
+    <a href="#weekly" class="journal-card">
+        <img src="images/writeup1.png">
+        <h3>Weekly Entry</h3>
+    </a>
+
+    <a href="#monthly" class="journal-card">
+        <img src="images/calander.png">
+        <h3>Monthly Entry</h3>
+    </a>
+
+    <a href="#yearly" class="journal-card">
+        <img src="images/settings.png">
+        <h3>Yearly Entry</h3>
+    </a>
+
+</div>
+
+<!-- POPUPS -->
+<div id="daily" class="popup">
+    <div class="popup-box">
+        <div class="popup-header">
+            <h2>Daily Journal</h2>
+            <a href="#" class="close">&times;</a>
+        </div>
+        <textarea placeholder="Write your daily thoughts..."></textarea>
+        <button class="add-btn">Add</button>
+    </div>
+</div>
+
+<div id="weekly" class="popup">
+    <div class="popup-box">
+        <div class="popup-header">
+            <h2>Weekly Journal</h2>
+            <a href="#" class="close">&times;</a>
+        </div>
+        <textarea placeholder="Reflect on your week..."></textarea>
+        <button class="add-btn">Add</button>
+    </div>
+</div>
+
+<div id="monthly" class="popup">
+    <div class="popup-box">
+        <div class="popup-header">
+            <h2>Monthly Journal</h2>
+            <a href="#" class="close">&times;</a>
+        </div>
+        <textarea placeholder="Your month in words..."></textarea>
+        <button class="add-btn">Add</button>
+    </div>
+</div>
+
+<div id="yearly" class="popup">
+    <div class="popup-box">
+        <div class="popup-header">
+            <h2>Yearly Journal</h2>
+            <a href="#" class="close">&times;</a>
+        </div>
+        <textarea placeholder="Reflect on your year..."></textarea>
+        <button class="add-btn">Add</button>
+    </div>
+</div>
+
+<!-- PAST ENTRIES -->
+<div class="past-entries">
+    <h2>Past Entries</h2>
+    <div class="entries-grid">
+        <div class="entry-box">
+            <img src="images/writeup.png">
+            <p>Daily Reflection</p>
+        </div>
+        <div class="entry-box">
+            <img src="images/writeup1.png">
+            <p>Weekly Thoughts</p>
+        </div>
+        <div class="entry-box">
+            <img src="images/calander.png">
+            <p>Monthly Goals</p>
+        </div>
+    </div>
+</div>
+
+<!-- COMMON WRITE-UP SPACE -->
+<div class="common-journal">
+    <h2>Free Journal Space</h2>
+    <textarea placeholder="Write anything, anytime..."></textarea>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,437 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff1f6;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: linear-gradient(90deg,  #FE6E94 , #FFA2B9);
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.logo {
+    font-size: 50px;
+    font-family:"Brush Script MT";
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-links li a::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: white;
+    left: 0;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover::after {
+    width: 100%;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #fff1f6, #f7c1d9);
+}
+
+.hero-box {
+    background: rgba(255,255,255,0.95);
+    padding: 60px;
+    max-width: 850px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 20px 40px rgba(201,122,167,0.35);
+    animation: fadeUp 1.3s ease;
+}
+
+.hero-box h1 {
+    font-size: 44px;
+    color: #FF007F;
+    margin-bottom: 20px;
+}
+
+.hero-box p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    padding: 14px 40px;
+    background: linear-gradient(90deg, #FF91AF, #F0C0FE);
+    color: black;
+    border-radius: 40px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.hero-btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 20px #ffd1dc;
+}
+
+@keyframes fadeUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#fff6fa;
+    color:#333;
+}
+
+/* GLOBAL */
+section{
+    padding:90px 50px;
+}
+
+.section-title{
+    text-align:center;
+    font-size:38px;
+    color:#7a2048;
+    margin-bottom:50px;
+}
+
+/* HERO */
+.about-hero{
+    background:linear-gradient(to bottom right,#ffe6f0,#fde2ef);
+    padding:120px 50px;
+}
+
+.hero-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    gap:60px;
+}
+
+.hero-text{
+    width:55%;
+    animation:fadeUp 1.3s ease both;
+}
+
+.hero-text h1{
+    font-size:48px;
+    color:#4b0f2e;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#b23a70;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:1.9;
+}
+
+.hero-visual{
+    width:45%;
+}
+
+.hero-visual img{
+    width:100%;
+    border-radius:35px;
+    box-shadow:0 30px 60px rgba(0,0,0,0.2);
+    animation:float 6s ease-in-out infinite;
+}
+
+/* WHAT IS EVERWELL */
+.about-everwell{
+    background:#fff;
+}
+
+.about-box{
+    max-width:900px;
+    margin:auto;
+    background:#ffeaf4;
+    padding:50px;
+    border-radius:30px;
+    box-shadow:0 25px 50px rgba(0,0,0,0.12);
+    animation:fadeUp 1.4s ease both;
+}
+
+.about-box p{
+    font-size:17px;
+    line-height:2;
+    text-align:center;
+}
+
+/* FEATURES */
+.features{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:30px;
+}
+
+.feature-card{
+    width:300px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 15px 30px rgba(0,0,0,0.12);
+    text-align:center;
+    transition:transform 0.4s ease;
+}
+
+.feature-card:hover{
+    transform:translateY(-10px);
+}
+
+.feature-card h3{
+    color:#7a2048;
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    font-size:15px;
+    line-height:1.7;
+}
+
+/* PHILOSOPHY */
+.philosophy{
+    background:linear-gradient(to right,#ffe6f0,#fff);
+}
+
+.philo-container{
+    max-width:1100px;
+    margin:auto;
+    display:flex;
+    gap:60px;
+    align-items:center;
+}
+
+.philo-text{
+    width:60%;
+}
+
+.philo-text h2{
+    font-size:40px;
+    color:#7a2048;
+    margin-bottom:20px;
+}
+
+.philo-text p{
+    font-size:17px;
+    line-height:1.9;
+}
+
+.philo-quote{
+    width:40%;
+    background:#fff;
+    padding:40px;
+    border-radius:30px;
+    box-shadow:0 25px 50px rgba(0,0,0,0.15);
+    font-size:20px;
+    font-style:italic;
+    color:#b23a70;
+    animation:float 5s ease-in-out infinite;
+}
+
+/* JOURNEY */
+.journey{
+    background:#fff;
+}
+
+.journey-steps{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
+}
+
+.step{
+    background:#ffe6f0;
+    padding:25px 35px;
+    border-radius:30px;
+    font-size:16px;
+    animation:slideIn 1s ease both;
+}
+
+/* CTA */
+.about-cta{
+    background:#7a2048;
+    color:#fff;
+    text-align:center;
+    padding:100px 40px;
+}
+
+.about-cta h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.about-cta p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.about-cta a{
+    text-decoration:none;
+    background:#fff;
+    color:#7a2048;
+    padding:14px 35px;
+    border-radius:30px;
+    font-size:16px;
+    transition:all 0.3s ease;
+}
+
+.about-cta a:hover{
+    background:#ffd6e8;
+}
+
+/* ANIMATIONS */
+@keyframes fadeUp{
+    from{opacity:0; transform:translateY(40px);}
+    to{opacity:1; transform:translateY(0);}
+}
+
+@keyframes slideIn{
+    from{opacity:0; transform:translateX(-30px);}
+    to{opacity:1; transform:translateX(0);}
+}
+
+@keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-15px);}
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .hero-container,
+    .philo-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .hero-text,
+    .hero-visual,
+    .philo-text,
+    .philo-quote{
+        width:100%;
+    }
+}
+
+.everwell-footer {
+    background: linear-gradient(to top, #fde4ec, #fff0f6);
+    padding: 60px 60px 25px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #5a4a4a;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.footer-brand {
+    max-width: 320px;
+}
+
+.footer-brand h2 {
+    font-size: 26px;
+    color: #d26a8a;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+.footer-brand p {
+    font-size: 14px;
+    line-height: 1.7;
+    color: #7a5a63;
+}
+
+.footer-links,
+.footer-contact {
+    min-width: 180px;
+}
+
+.footer-links h3,
+.footer-contact h3 {
+    font-size: 16px;
+    margin-bottom: 14px;
+    color: #b45573;
+}
+
+.footer-links a {
+    display: block;
+    font-size: 14px;
+    color: #7a5a63;
+    text-decoration: none;
+    margin-bottom: 8px;
+    transition: all 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #d26a8a;
+    padding-left: 6px;
+}
+
+.footer-contact p {
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #7a5a63;
+}
+
+.footer-bottom {
+    border-top: 1px solid #f3b6c6;
+    margin-top: 40px;
+    padding-top: 18px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #8a6a73;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #fff4f8;
+}
+.main-link{
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    border: 2px solid white;
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: palevioletred;
+    color: white;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* ===== TODAY I FELT ===== */
+
+.felt-card {
+  background: #fff9fb;
+  padding: 30px;
+  border-radius: 24px;
+  margin-bottom: 40px;
+}
+
+.felt-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.felt-top h1 {
+  font-size: 42px;
+  letter-spacing: 1px;
+}
+
+.meta div {
+  margin-bottom: 10px;
+}
+
+.felt-table {
+  margin-top: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.emoji {
+  width: 50px;
+  font-size: 28px;
+}
+
+.days {
+  display: flex;
+  gap: 22px;
+}
+
+.header .days span {
+  width: 26px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.days input {
+  display: none;
+}
+
+.days label {
+  width: 26px;
+  height: 26px;
+  background: #ffe9f2;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.days input:checked + label {
+  background: #ffbfd8;
+}
+
+/* ===== DETAILS ===== */
+
+.detail-card {
+  display: flex;
+  background: #fff9fb;
+  border-radius: 24px;
+  padding: 30px;
+}
+
+.left, .right {
+  flex: 1;
+}
+
+.left h3, .right h3 {
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+
+.faces {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 30px;
+}
+
+.faces input {
+  display: none;
+}
+
+.faces label {
+  font-size: 32px;
+  opacity: 0.35;
+  cursor: pointer;
+}
+
+.faces input:checked + label {
+  opacity: 1;
+}
+
+input[type="range"] {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tags input {
+  display: none;
+}
+
+.tags label {
+  padding: 10px 16px;
+  background: #ffe9f2;
+  border-radius: 16px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.tags input:checked + label {
+  background: #ffbfd8;
+}
