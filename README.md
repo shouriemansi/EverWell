@@ -48,7 +48,6 @@ EverWell brings together everyday productivity tools and self-care guidance in o
 
 - HTML5
 - CSS3
-- (Vanilla JS, if used for interactivity — add here)
 
 ## Getting Started
 
